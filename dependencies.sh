@@ -8,8 +8,8 @@ if [ ! -d dmd2 ]; then
         SUM1="ea060277b3e8f201b8cf1684ba88b7ba  $FILE"
         MD5="md5sum"
     elif [[ "$OSTYPE" == "darwin"* ]]; then
-        # Note that on macOS gnuplot should be installed with x11 set as terminal. 
-        # Using homebrew: brew install gnuplot --with-x11
+        # Note that on macOS gnuplot should be installed 
+        # Using homebrew: brew install gnuplot
         FILE="dmd.$VERSION.osx.zip"
         SUM1="MD5 ($FILE) = 7593b33f985d1d08b2808354f220fc05"
         MD5="md5"
